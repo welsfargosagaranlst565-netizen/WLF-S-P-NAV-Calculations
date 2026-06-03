@@ -1,0 +1,99 @@
+Net Asset Value (NAV) is the per-unit value of a mutual fund, ETF, or investment fund.
+
+The basic formula is:
+
+NAV = \frac{\text{Total Assets} - \text{Total Liabilities}}{\text{Number of Outstanding Units}}
+
+### Steps in NAV Calculation
+
+1. **Calculate Total Assets**
+
+   * Market value of investments
+   * Cash and receivables
+   * Accrued income
+
+2. **Subtract Liabilities**
+
+   * Management fees
+   * Operating expenses
+   * Short-term liabilities
+
+3. **Divide by Outstanding Units/Shares**
+
+---
+
+### Example
+
+Suppose a fund has:
+
+* Total assets = $50 million
+* Total liabilities = $2 million
+* Outstanding units = 4 million
+
+Then:
+
+[
+NAV = \frac{50,000,000 - 2,000,000}{4,000,000}
+]
+
+[
+NAV = \frac{48,000,000}{4,000,000} = 12
+]
+
+So the **NAV per unit = $12**.
+
+---
+
+
+
+Statement of financial position1:
+__________________________________________________________________________________________________________________________
+1p54, 60, 113 As at 31 December
+Note 2024 2023
+Assets
+1p54(i) Cash and cash equivalents 11 1,620 325
+1p55 Margin accounts 10 1,026 223
+1p54(h),
+IFRS7p8(f) Due from brokers 2,356 984
+1p54(h),
+IFRS7p8(f) Other receivables 497 448
+1p54(d),
+IFRS7p8(a)(iv) Financial assets at fair value through profit or loss 6, 9 106,460 93,242
+IFRS9p3.2.23(a) Financial assets at fair value through profit or loss pledged as collateral 6, 9 15,268 –
+Total assets 127,227 95,222
+Liabilities
+1p54(k),
+IFRS7p8(g) Due to brokers (893) (665)
+1p54(k),
+IFRS7p8(g) Accrued expenses (257) (145)
+1p54(m),
+IFRS7p8(e) Financial liabilities at fair value through profit or loss 7, 9 (11,663) (9,738)
+1p55 Liabilities (excluding net assets attributable to holders of redeemable shares) (12,813) (10,548)
+32IE32 Net assets attributable to holders of redeemable shares 114,414 84,674
+The notes on pages 5 to 35 are an integral part of these financial statements.
+### Types of NAV
+
+* **Daily NAV**: Calculated at market close each trading day
+* **Open-end mutual fund NAV**: Price investors buy/sell at
+* **ETF NAV**: Used as reference; ETFs trade at market prices
+
+If you'd like, I can also explain:
+
+* NAV in mutual funds vs ETFs
+* How NAV affects returns
+* Adjusted NAV
+* Real estate fund NAV
+* Hedge fund NAV calculations
+* Excel formula for NAV calculation
+
+
+Equity Fund NAV
+
+The NAV of an equity fund is calculated as:
+
+NAV  =  Market Value of Equity Holdings+Other Assets−Liabilities
+        _______________________________________________________
+                      Outstanding Units
+
+	​
+
