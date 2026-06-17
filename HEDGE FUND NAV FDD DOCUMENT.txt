@@ -1,4 +1,4 @@
-Net Asset Value (NAV) is the per-unit value of a mutual fund, ETF, or investment fund.
+ Net Asset Value (NAV) is the per-unit value of a mutual fund, ETF, or investment fund.
 
 The basic formula is:
 
@@ -155,3 +155,113 @@ Net income after carried interest to
    General Partner
                                                                      8,458,000               32,202,000           40,660,000
                                                       ______________________________________________________________________
+
+                     ###### NOTES TO FINANCIAL STATEMENTS #######
+JUNE, 2026 KPMG LLP, a Delaware limited liability partnership and a member firm of the KPMG global organization of                         independent member firms affiliated with
+         KPMG International Limited, a private English company limited by guarantee.  NDP416049-1B 18
+ASC 820-10-50-1A, ASC
+820-10-50-2B
+ASC 820-10-50-2(a) and
+(b)
+ASC 820-10-50-8
+3. Fair value measurements
+                                                                       Fair value hierarchy
+The Fund’s assets recorded at fair value have been categorized based on a fair value hierarchy as
+described in the Fund’s significant accounting policies in note 2. The following table presents information
+about the Fund’s assets measured at fair value as of December 31, 20XX:
+(in thousands) Level 1 Level 2 Level 3(1) Total
+Investments, at fair value
+Common stock                                                   $270,500             $—         $85,500             $356,000
+Preferred stock                                                  —                    —         389,090              389,090
+Notes                                                            —                    —           20,000              20,000
+Warrants                                                          —                   —             4,250              4,250
+Contingent consideration                                         —                    —              100                 100
+Total investments, at fair value                               $270,500               $—          $498,940           $769,440
+Digital assets, at fair value
+Cryptocurrencies                                                 $11,200              —                 —             $11,200
+
+_____________________________________________________________________________________________________________________________
+(1) The number of classes may need to be greater for fair value measurements categorized within Level 3 of the fair value
+hierarchy, because those measurements have a greater degree of uncertainty and subjectivity. Determining appropriate classes of
+assets and liabilities for which disclosures about fair value measurements should be provided requires judgment. See Appendix A
+for sample disclosures if the Fund had investments in private investment companies.
+
+
+
+
+                                       @@ Notes to financial statements @@
+----------------------------------------------------------------------------------------------------------------------------
+December 31, 20XX
+© 2023 KPMG LLP, a Delaware limited liability partnership and a member firm of the KPMG global organization of independent member firms affiliated with
+KPMG International Limited, a private English company limited by guarantee. All rights reserved. NDP416049-1B 20
+3. Fair value measurements (continued)
+[Consider including the following language if not already addressed in the preceding Fair value
+– Valuation techniques and inputs section:] The Fund’s Level 3 investments have been valued using
+unadjusted inputs that have not been internally developed by the Fund, including third-party transactions
+and quotations. As a result, there were no unobservable inputs that have been internally developed by
+the Fund in determining the fair value of investments as of December 31, 20XX.
+ASC 820-10-50-2(bbb) Change in valuation technique
+[Example disclosure of a change in either or both a valuation approach and a valuation technique
+for measurements categorized in Level 2 and 3 of the fair value hierarchy:] During the year ended
+December 31, 20XX, the Fund changed the valuation technique used to value [Describe the class to
+which the change in valuation approach or valuation technique applies] from [Describe the
+previous valuation approach and/or valuation technique] to [Describe the change in valuation
+approach and/or valuation technique, including the use of an additional valuation technique].
+The Fund believes the change in valuation technique and its application results in a measurement that
+is equally or more representative of the fair value in the circumstances because of [Disclose the reasons
+of the change in valuation approach or valuation technique, which may result from events such
+as development of new markets; new information becoming available; information previously
+used becoming no longer available; valuation techniques improve; or changes in market
+conditions]. [If the change in valuation approach or technique affects only a portion of a class,
+consider presenting the amount, as of the reporting date, of the portion affected by the change.]
+ASC 825-10-50-20
+
+4. [If applicable] Due from cryptocurrency exchanges
+The Fund custodies digital asset with [include custodian of the investment company such as:] (the
+Custodian) for which qualified custody is available. [If a Fund has self-custody of private keys for its
+digital asset wallets, the disclosure should be tailored to address ASC 275 risks and uncertainties
+disclosures particular to self-custody of digital assets.] The Fund is subject to counterparty risk with
+cryptocurrency exchanges and custodians with whom it enters into cryptocurrency transactions. A
+significant concentration of the Fund's cryptocurrency assets may be held by a single custodian or in a
+single location, making them vulnerable to losses due to hacking, password loss, compromised access
+credentials, malware, or cyberattacks. While the Custodian maintains insurance policies related to loss
+and theft of digital assets, the Fund is subject to risk to the extent that losses exceed the coverage
+amounts. As of December 31, 20XX, all of the Fund’s investments in digital assets are held by the
+Custodian.
+[If applicable] Due from cryptocurrency exchanges includes funds held at digital asset exchanges which
+amounts to $92,000 as of December 31, 20XX. Amounts held in custody of digital asset exchanges are
+not insured.
+ASC 825-10-50-21 5. 
+
+Concentration of credit risk
+The Fund is subject to credit risk to the extent any financial institution with which it conducts business is
+unable to fulfill contracted obligations on its behalf. Management monitors the financial condition of those
+financial institutions and does not anticipate any losses from these counterparties.
+
+<!-- Application Log File -->
+----------------------------------------------
+
+        <appender name="FILE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+              <file>${LOG_PATH}/application.log</file>
+
+        <rollingPolicy
+            class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+
+            <fileNamePattern>
+
+                ${LOG_PATH}/archive/app-%d{yyyy-MM-dd}.%i.log.gz
+
+            </fileNamePattern>
+
+            <maxFileSize>100MB</maxFileSize>
+
+            <maxHistory>30</maxHistory>
+
+                  <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${CONSOLE_PATTERN}</pattern>
+        </encoder>
+    </appender>
